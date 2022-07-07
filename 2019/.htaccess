@@ -1,0 +1,38 @@
+##### LOCAWEB - NAO REMOVER #####
+AddHandler php55-script .php
+suPHP_ConfigPath /home/e-crowngroup1/
+##### LOCAWEB - NAO REMOVER #####
+
+<IfModule mod_rewrite.c>
+        RewriteEngine On
+        RewriteBase /
+        # Remove index.php das URLs
+        RewriteCond %{THE_REQUEST} ^GET.*index\.php [NC]
+        RewriteCond %{REQUEST_URI} !/system/.* [NC]
+        RewriteRule (.*?)index\.php/*(.*) /$1$2 [R=301,NE,L]       
+</IfModule>	
+
+<IfModule mod_rewrite.c>
+	    RewriteEngine On
+	    RewriteRule ^index/?$ /index.php [NC,L]
+        RewriteRule ^ux/?$ /ux.php [NC,L]
+        RewriteRule ^cases/?$ /cases.php [NC,L]
+        RewriteRule ^fale/?$ /fale.php [NC,L]
+		RewriteRule ^empresa/?$ /empresa.php [NC,L]
+        RewriteRule ^trabalhe/?$ /trabalhe.php [NC,L]
+        RewriteRule ^marketplace/?$ /marketplace.php [NC,L]
+		RewriteRule ^presença/?$ /presença.php [NC,L]
+		RewriteRule ^send_work/?$ /send_work.php [NC,L]
+		RewriteRule ^send_optin/?$ /send_optin.php [NC,L]  	
+		RewriteRule ^send_contact/?$ /send_contact.php [NC,L]
+        RewriteRule ^mensagem/?$ /mensagem.php [NC,L]
+</IfModule>
+
+ErrorDocument 404 /index.php
+
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+

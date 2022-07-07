@@ -1,0 +1,590 @@
+﻿<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>E-crowngroup</title>
+
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+<link href="css/fale.css" rel="stylesheet">	
+
+<link href="css/hover.css" rel="stylesheet"> 
+
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<script>
+
+$(document).on('click', '.browse', function(){
+
+  var file = $(this).parent().parent().parent().find('.file');
+
+  file.trigger('click');
+
+});
+
+$(document).on('change', '.file', function(){
+
+  $(this).parent().find('.form-control').val($(this).val().replace(/C:\\fakepath\\/i, ''));
+
+});	
+
+
+
+$(function() {
+
+	menu = $('nav ul');
+
+
+
+  $('#openup').on('click', function(e) {
+
+    e.preventDefault(); menu.slideToggle();
+
+  });
+
+  
+
+  $(window).resize(function(){
+
+    var w = $(this).width(); if(w > 480 && menu.is(':hidden')) {
+
+      menu.removeAttr('style');
+
+    }
+
+  });
+
+  
+
+  $('nav li').on('click', function(e) {                
+
+    var w = $(window).width(); if(w < 480 ) {
+
+      menu.slideToggle(); 
+
+    }
+
+  });
+
+  $('.open-menu').height($(window).height());
+
+});		
+
+	
+
+</script>
+
+<body>
+
+<nav class='cf'>
+
+  <ul class='cf'>
+
+    <li>
+
+    	<a href="#">Nossa empresa</a>
+
+					</li>
+
+					<li>
+
+						<a href="trabalhe.html">Trabalhe Conosco</a>
+
+					</li>
+
+					<li>
+
+						<a href="fale.html">Contato</a>
+
+					</li>
+
+					<li>
+
+						<a href="home.html">Home</a>
+
+					</li>
+
+					<li>
+
+						<a href="ux.html">UX</a>
+
+					</li>
+
+					<li>
+
+						<a href="presença.html">Presença Digital</a>
+
+					</li>
+
+					<li>
+
+						<a href="marketplace.html">Market Places</a>
+
+					</li>
+
+					<li>
+
+						<a href="#">United States</a>
+
+					</li>
+
+  </ul>
+
+  <a href='#' id='openup'><img src="http://imgur.com/9SxaF6T.png" width="150px"  class="img img-responsive" style="margin-left: 10px;">
+
+</nav>
+
+<div class="container background1">
+
+	<div class="row">
+
+		<div class="col-md-2 col-lg-3 col-xs-0"></div>
+
+		<div class="col-md-8 col-lg-7 col-xs-10">
+
+			<div class="menu1">
+
+				<ul>
+
+					<li>
+
+						<a href="empresa.html">Nossa empresa</a>
+
+					</li>
+
+					<li>
+
+						<a href="trabalhe.html">Trabalhe Conosco</a>
+
+					</li>
+
+					<li>
+
+						<a href="fale.html"><span style="margin-right: 70px;">Contato</span></a>
+
+					</li>
+
+					<li>
+
+						<a href="#"><img alt="" src="http://i.imgur.com/mCHPp8E.png">  United States</a>
+
+					</li>
+
+				</ul>
+
+				
+
+			</div>
+
+			
+
+		</div>
+
+		<div class="col-md-2 col-lg-2 col-xs-0"></div>
+
+	</div>
+
+</div>
+
+<div class="container background2">
+
+	<div class="row">
+
+		<div class="col-md-5 col-lg-5 col-xs-5">
+
+			<div class="logo">
+
+				<img src="http://imgur.com/9SxaF6T.png"  class="img img-responsive center-block">
+
+			</div>
+
+		</div>
+
+		<div class="col-md-5 col-lg-5 col-xs-7">
+
+			<div class="menu2">
+
+				<ul>
+
+					<li>
+
+						<a href="home.html">Home</a>
+
+					</li>
+
+					<li>
+
+						<a href="ux.html">UX</a>
+
+					</li>
+
+					<li>
+
+						<a href="presença.html">Presença Digital</a>
+
+					</li>
+
+					<li>
+
+						<a href="marketplace.html">Market Places</a>
+
+					</li>
+
+				</ul>
+
+				
+
+			</div>
+
+			
+
+		</div>
+
+		<div class="col-md-2 col-lg-2 col-xs-0"></div>
+
+	</div>
+
+</div>	
+
+<div class="container-fluid background3">
+
+	<div class="row">
+
+	<div class="col-lg-12 banner1">	
+
+		
+
+			<div class="text1">
+
+				<h1><span style="color:#fff;">Entre em </span><span style="color:#1cbbdd;"> Contato</span></h1>
+
+			
+
+			</divCopyright © 2020
+
+			
+
+		
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+<div class="container background8">
+
+	<div class="text6">
+
+		<h1>Nos mande<br><span style="color:#a6aab2;">uma mensagem</span></h1>
+
+		
+
+	</div>
+
+</div>
+
+<div class="container background9">
+
+<h3 style="color:#008000;text-align:center;">Obrigado, em breve retornaremos o contato!</h3>
+
+	<div class="row background10">
+
+	<form method="POST" action="send_contact.php">
+
+		<div class="col-lg-1 col-md-1 col-xs-0"></div>
+
+		<div class="col-lg-5 col-md-5 col-xs-12">	
+
+			<div class="form-group">
+
+				<label for="text"><span style="font-size: 15px; color:#a6aab2;">Nome</span><br></label>
+
+				<input type="text" class="form-control" name="Nome" id="Nome" required="required"/>
+
+			</div>
+
+			<div class="form-group texto">
+
+				<label for="empresa"><span style="font-size: 15px; color:#a6aab2;">nome da empresa</span><br></label>
+
+				<input type="text" class="form-control" id="Empresa" name="Empresa" />
+
+			</div>	
+
+			<div class="form-group">
+
+				<label for="empresa"><span style="font-size: 15px; color:#a6aab2;">Digite aqui sua mensagem</span><br></label>
+
+				<input type="text" class="form-control" id="Mensagem" name="Mensagem" />
+
+			</div>
+
+   			<button type="submit" class="enviar"><img src="http://imgur.com/hMvHvXy.png"></button>
+
+  		</div> 
+
+  		<div class="col-lg-5 col-md-5 col-xs-12">	
+
+   			<div class="form-group">
+
+    			<label for="tel"><span style="font-size: 15px; color:#a6aab2;">Telefone</span><br></label>
+
+    			<input type="tel" class="form-control" id="Telefone" name="Telefone" required="required"/>
+
+  			</div>
+
+			<div class="form-group">
+
+				<label for="email"><span style="font-size: 15px; color:#a6aab2;">E-mail</span><br></label>
+
+				<input type="email" class="form-control" id="Email" name="Email" required="required"/>
+
+			</div>	
+
+  		</div> 
+
+		<div class="col-lg-1 col-md-1 col-xs-0"></div>
+
+	</form>
+
+</div>	
+
+</div>
+
+<div class="container background20">
+
+	<div class="row background21">
+
+	<div class="text12">	
+
+		<div class="col-lg-1 col-md-1 col-xs-0"></div>
+
+		<div class="col-lg-5 col-md-5 col-xs-0">
+
+			<p><strong>Matriz</strong><br>Rua Porto Alegre, 307 <br>Nova Zelândia, Serra - ES </p>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d768.677726119771!2d-46.6322921685056!3d-23.587540066490593!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5a86586f005ad3ac!2sE-Crown+Group!5e0!3m2!1spt-BR!2sbr!4v1501772049117" width="100%" height="300" frameborder="0" style="border:0; border-radius: 10px;"  allowfullscreen></iframe><br><br>
+
+	<h4><img alt="" src="http://i.imgur.com/OWwcSW4.png">  11 2387 4489 <img alt="" src="http://i.imgur.com/Hf9UOlN.png" style="margin-left: 20px;">  contato@e-crowngroup.com  </h4>
+
+		</div>
+
+		<div class="col-lg-5 col-md-5 col-xs-0">
+
+		
+
+		<p><strong>Filial</strong><br>Rua Dr. Neto de Araújo, 263 <br>Vila Mariana,  São Paulo - SP </p>
+
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.0138679217393!2d-40.22930327341053!3d-20.182815152228883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb81e807dfd35fd%3A0x16929740170711ce!2sR.+P%C3%B4rto+Alegre%2C+307+-+Alterosas%2C+Serra+-+ES%2C+29167-036!5e0!3m2!1spt-BR!2sbr!4v1501777518148" width="100%" height="300" frameborder="0" style="border:0;border-radius: 10px;" allowfullscreen></iframe>
+
+		</div>
+
+		<div class="col-lg-1 col-md-1 col-xs-0"></div>
+
+	</div>		
+
+	</div>
+
+</div>
+
+
+
+
+
+
+
+<div class="container-fluid background13">	
+
+	<div class="container background14">
+
+		
+
+		<div class="col-lg-1 col-md-2 col-xs-6">
+
+			<div class="text7">
+
+			<p>Navegação</p>
+
+			<ul class="list-group">
+
+				<li><a href="home.html">Home</a></li>
+
+				<li><a href="ux.html">UX </a></li>
+
+				<li><a href="#">Cases</a></li>
+
+				<li><a href="#">Serviços</a></li>
+
+				<li><a href="presença.html">Presença Digital</a></li>
+
+				<li><a href="marketplace.html">Market Place</a></li>
+
+				
+
+			</ul>
+
+			
+
+			
+
+			</div>
+
+		</div>
+
+		<div class="col-lg-1 col-md-2 col-xs-0">
+
+			
+
+		</div>
+
+		<div class="col-lg-2 col-md-2 col-xs-6">
+
+			<div class="text7">
+
+			<p>Empresa</p>
+
+			<ul class="list-group">
+
+				<li><a href="empresa.html">Nossa Empresa</a></li>
+
+				<li><a href="trabalhe.html">Trabalhe Conosco</a></li>
+
+				<li><a href="fale.html">Contato</a></li>
+
+			
+
+			</ul>
+
+			
+
+			
+
+			</div>
+
+		</div>
+
+		<div class="col-lg-2 col-md-2 col-xs-6">
+
+			<div class="text7">
+
+			<p>Localização</p>
+
+			<h1>Matriz</h1>
+
+				<h1>Rua Dr. Neto de Araújo, 263<br>Vila Mariana,  São Paulo - SP </h1>
+
+			<h1>Filial</h1>
+
+			
+
+				<h1>Rua Porto Alegre, 307<br>Nova Zelândia, Serra - ES</h1>
+
+			
+
+			</div>
+
+		</div>
+
+			
+
+	<div class="col-lg-2 col-md-2 col-xs-6">
+
+			<div class="text7" style="margin-top;">
+
+			<p>Atendimento</p>
+
+			
+
+				<h1>(11) 2387 4489<br>contato@e-crowngroup.com</h1>
+
+			
+
+			
+
+			</div>
+
+		</div>
+
+	<div class="col-lg-4 col-md-4 col-xs-3">
+
+		<div class="img2">	
+
+		<a href="#"><img src="http://imgur.com/i9Thq3J.png" class="img-responsive pull-right hvr-grow-shadow"></a>
+
+			</div>
+
+		</div>
+
+	
+
+	</div>
+
+	</div>
+
+<div class="container-fluid background16"></div>
+
+<div class="container-fluid background17"></div>
+
+<div class="container-fluid background18">
+
+	<div class="container">
+
+	<div class="row">	
+
+		<div class="col-lg-3 col-md-3 col-xs-8">
+
+			<div class="text8">
+
+				<h1>Copyright © 2017 | E-Crown Group</h1>	
+
+			</div>
+
+		</div>
+
+		<div class="col-lg-7 col-md-3 col-xs-0">
+
+			
+
+		</div>
+
+		<div class="col-lg-2 col-md-3 col-xs-4">
+
+			<div class="text8">
+
+				<h1>United States</h1>	
+
+			</div>
+
+			</div>
+
+		</div>
+
+	
+
+</div>
+
+</div>
+
+</body>
+
+</html>
+

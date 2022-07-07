@@ -1,0 +1,226 @@
+
+
+
+.background1{
+	padding: 0;
+	margin: 0;
+	background-color:#1aaed3;
+	width: 100%;
+	height: 45px;
+}
+.menu1  {
+	margin-top:10px;
+	float: right;
+	
+}
+
+
+.menu1 li {
+	font-size:15px;
+	color: #fff;
+	font-family: 'Open Sans';
+	display: inline;
+	word-spacing: 64px;
+	
+}
+.menu1 ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.background2{
+	padding: 0;
+	margin: 0;
+	background-color:#1cbbdd;
+	width: 100%;
+	height: 90px;
+}
+.menu2  {
+	margin-top:5%;
+	float: right;
+	
+}
+
+
+.menu2 li {
+	font-size:15px;
+	color: #fff;
+	font-family: 'Open Sans';
+	display: inline;
+	word-spacing: 64px;
+	
+}
+.menu2 ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+.logo {
+	margin-top:5%;
+}
+
+.banner1 {
+	margin: 0;
+	padding: 0;
+	background-image: url(http://imgur.com/wZUuBVf.jpg);
+	width: 100%;
+	height:370px;
+	
+}
+.text1 {
+	margin-left:18%;
+	padding-top: 50px;
+	
+}
+.text1 h1 {
+	
+	font-size: 70px;
+}
+.text1 h1 {
+	
+	font-size: 70px;
+}
+
+
+
+.text2 {
+	color: #fff;
+	margin-left:18%;;
+}
+
+.background3{
+	margin: 0;
+	padding: 0;
+}
+.background4 {
+	
+	background-image: url(http://imgur.com/k4quYZ0.jpg);
+	width: 100%;
+	height: 570px;
+	margin-top: 350px; 
+	
+}
+.text3 {
+	padding-top: 150px;
+	
+}
+.text3 h1 {
+	font-size:40px;
+	
+}
+.text3 p {
+	color:#acafb4;
+	font-family:'Open Sans';
+	font-size: 15px;
+	
+	margin-right: 35%;
+	
+}
+.background5 {
+	margin: 0;
+	padding: 0;
+	margin-right: 15%;
+	margin-top: -20px;
+}
+.background6 {
+	margin: 0;
+	padding: 0;
+	margin-top: 8%;
+	padding-top: 5%;
+	background-color:#ececec;
+	width: 100%;
+	height:770px;
+	}
+.text4 {
+	margin: 0;
+	padding: 0;
+	color: #6f7580;
+	text-align: center;
+}
+.background7 {
+	margin: 0;
+	padding:0;
+	margin-top:-480px;
+}
+.background8 {
+	margin: 0;
+	padding: 0;
+	
+	margin-left: 580px;
+	margin-top:-480px;
+}
+.background9 {
+	margin: 0;
+	padding: 0;
+	background-image: url(http://imgur.com/vmiMv66.jpg);
+	background-position: center;
+	width: 100%;
+	height: 465px;
+}
+.text5 {
+	text-align: center;
+	margin-top: 200px;
+	font-size: 15px;
+	color: #fff;
+}
+	.text5 h1 {
+	text-align: center;
+	margin-top: 200px;
+	font-size: 15px;
+	color: #fff;
+}
+.background11 {
+	margin: 0;
+	padding: 0;
+}
+.text6 {
+	margin-top:px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+}
+.background12 {
+	margin: 0;
+	padding: 0;
+	background-image: url(http://imgur.com/sdJrS6D.jpg);
+	width:100%;
+	height:1280px;
+}
+.text7 {
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	margin-top: 3%;
+}
+.background13 {
+	margin: 0;
+	padding:0;
+	
+	padding-top:50px;
+}
+.background14 {
+	margin: 0;
+	padding: 0;
+	background-color:#232b3b;
+	width: 100%;
+	height: 300px;
+}
+.text-8   {
+	text-decoration: none;
+	font-size:13px;
+	color: #fff;
+	font-family: 'Open Sans';
+	margin-top: 80px;
+	
+}
+	
+.text8 a {
+	text-decoration: none;
+	color: #ffffff;
+	
+	
+}
+.background15 {
+	margin: 0;
+	padding: 0;
+	
+}

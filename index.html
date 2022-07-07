@@ -1,0 +1,813 @@
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-CrownGroup - Fullcommerce começa aqui</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/img/ecrown-favicon.ico">
+
+    <!-- SEO -->
+    <!-- Primary Meta Tags -->
+    <title>Sua parceira na jornada digital</title>
+    <meta name="title" content="Sua parceira na jornada digital">
+    <meta name="description" content="Ajudamos a impulsionar seu negócio no mundo digital com experiência e know-how para apresentar os melhores caminhos e resultados">
+    <meta name="keywords" content="fullcommerce, fullservice, full-commerce, e-commerce, ecommerce , comercio eletrônico, vendas online">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="Portuguese">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://e-crowngroup.com.br/">
+    <meta property="og:title" content="Sua parceira na jornada digital">
+    <meta property="og:description" content="Ajudamos a impulsionar seu negócio no mundo digital com experiência e know-how para apresentar os melhores caminhos e resultados">
+    <meta property="og:image" content="https://e-crowngroup.com.br/img/bg__quem-somos.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://e-crowngroup.com.br/">
+    <meta property="twitter:title" content="Sua parceira na jornada digital">
+    <meta property="twitter:description" content="Ajudamos a impulsionar seu negócio no mundo digital com experiência e know-how para apresentar os melhores caminhos e resultados">
+    <meta property="twitter:image" content="https://e-crowngroup.com.br/img/bg__quem-somos.jpg">
+
+  <!-- Global site tag (gtag.js) - Google Ads -->
+  <script src="https://www.googletagmanager.com/gtag/js" async></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'AW-807781316');
+        gtag('config', 'UA-103551679-1');
+    </script>
+    
+    <!-- Event snippet for Acesso página de contato - E-Crown conversion page
+    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+    function gtag_report_conversion(url) {
+    var callback = function () {
+        if (typeof(url) != 'undefined') {
+        window.location = url;
+        }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-807781316/DSjdCM7e4cwBEMSHl4ED',
+        'event_callback': callback
+    });
+    return false;
+    }
+    </script>
+
+
+    <link rel="stylesheet" media="none" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" onload="if(media!=='all')media='all'" />
+    <link rel="stylesheet" media="none" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" onload="if(media!=='all')media='all'" />
+    <link rel="stylesheet" media="none" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.12.6/dist/sweetalert2.min.css" onload="if(media!=='all')media='all'">
+    
+    <link rel="stylesheet" media="all" href="/css/style3.min.css">
+
+    <noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.12.6/dist/sweetalert2.min.css">
+    </noscript>
+</head>
+
+<!-- navbar -->
+<div class="navbar" id="navbar">
+    <div class="navbar__center flex">
+        <div class="col flex--1 nav__mobile">
+            <div class="logo">
+                <a href="" rel="noopener noreferrer">
+                    <img src="/img/logo__ecrown-pb.svg" alt="">
+                </a>
+            </div>
+            <div class="nav__button">
+                <a class="nav__button-mobile"></a>
+            </div>
+        </div>
+        <div class="col flex--1 flex flex--a-center nav__menu">
+            <div class="nav">
+                <div class="nav__item ">
+                    <a href="#quem-somos" class="nav__link">Quem somos</a>                    
+                </div>
+                <div class="nav__item nav__sub">
+                    <a href="#servicos" class="nav__link">Serviços</a>
+                </div>
+                <div class="nav__item ">
+                    <a href="#gestao" class="nav__link">FullCommerce</a>                    
+                </div>
+                <div class="nav__item ">
+                    <a href="#plataformas" class="nav__link">Plataformas</a>                    
+                </div>
+                <div class="nav__item">
+                    <a href="#blog" class="nav__link">Blog</a>
+                </div>
+                <div class="nav__item">
+                    <a href="#contato" class="nav__link nav__contato">Contato</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="section__1 banner flex flex--a-center flex--j-center">
+<div id="home_wave"></div>
+    <div class="banner__center">
+        <h1 class="banner__title">
+            <small>sua parceira</small><br>
+            NA TRANSFORMAÇÃO DIGITAL
+        </h1>
+        <h2 class="banner__text">Digitalize seus negócios através do e-commerce B2B, B2C, B2E <br>
+                                 De forma modular, simplificada, mas com muita tecnologia <br>
+                                 ajudamos você nessa missão! </h2>
+        <div class="banner__buttons flex">
+            <a type="button" href="/quem-somos" class="button banner__button flex flex--j-center flex--a-center button__fill button__gold" >Mundo E-Crown</a>
+            <a type="button" href="#servicos" class="button banner__button flex flex--j-center flex--a-center button__outline" >Serviços</a>
+        </div>
+    </div>
+</section>
+
+<section id="servicos" class="section__2 servicos flex flex--a-center flex--j-center">
+    <div class="servicos__bg"></div>
+    <div class="section__center servicos__center">
+        <div class="section__title servicos__title text-center">
+            <h2>FullService</h2>
+            <h1>Serviço completo ou modular para o seu negócio digital</h1>
+            <img src="/img/line.svg" alt="" class="line">
+        </div>
+        <div class="servicos__content flex flex--j-start">
+            <div class="servicos__col flex--1">
+                <div class="servicos__box">
+                    <div class="col__center ">
+                        <img class="servicos__img" src="/img/icon__consultoria.svg" alt="">
+                        <h4>Consultoria</h4>
+                        <p>Auxiliamos com os primeiros passos para o mercado online, entendemos as suas necessidades e mostramos as melhores estratégias a serem seguidas, com o acompanhamento de especialistas na área de vendas online!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="servicos__col flex--1">
+                <div class="servicos__box">
+                    <div class="col__center ">
+                        <img class="servicos__img" src="/img/icon__gestao.svg" alt="">
+                        <h4>Gestão</h4>
+                        <p>A gestão de e-commerce envolve atividades complexas como logística, marketing, finanças e tecnologia; serviços a estruturação e acompanhamento de todo esse processo com qualidade e agilidade, conhecimento adquirido com mais de 15 anos no mercado!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="servicos__col flex--1">
+                <div class="servicos__box">
+                    <div class="col__center">
+                        <img class="servicos__img" src="/img/icon__logistica.svg" alt="">
+                        <h4>Logística</h4>
+                        <p>Operação apartir dos principais polos do Brasil ( SP, ES e SC). Gestão de transportadoras, rastreamento, monitoramento online, recebimento de mercadorias, identificação, controle de estoque e Back Office.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="servicos__col flex--1">
+                <div class="servicos__box">
+                    <div class="col__center">
+                        <img class="servicos__img" src="/img/icon__fiscal.svg" alt="">
+                        <h4>Fiscal - Tributário</h4>
+                        <p>Vender online requer atenção e aprendizado sobre como a legislação de tributos e processos fiscais impactam direta ou indiretamente na operação até o preço final do produto, te acompanhamos em todo esse processo avaliando as suas necessidades, conduzindo os melhores caminhos a serem percorridos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="servicos__col flex--1">
+                <div class="servicos__box">
+                    <div class="col__center">
+                        <img class="servicos__img" src="/img/icon__marketing.svg" alt="">
+                        <h4>Marketing</h4>
+                        <p>Equipe de marketing preparada para atingir seus objetivos, segmentar seus clientes, criar sua ação e construir sua estratégia de conversão, acompanhando seu cliente em todo o funil de compra; Com alinhamentos e decisões em conjunto com a sua equipe de marketing própria ou agencia, em busca do ROI ideal.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="servicos__col flex--1">
+                <div class="servicos__box">
+                    <div class="col__center">
+                        <img class="servicos__img" src="/img/icon__desenvolvimento.svg" alt="">
+                        <h4>Desenvolvimento</h4>
+                        <p>Trabalhamos em conjunto com o cliente para levar a sua identidade nas aplicações implementando as melhores práticas e otimizando para o usuário ter a melhor experiência, independente de qual seja sua necessidade. <br>Customização é um dos nossos diferenciais para seu sucesso.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+<section id="quem-somos" class="section__1 qs-intro quem-somos flex flex--a-center flex--j-center">
+    <div class="section__center contato__center">        
+        <div class="qs-intro__col flex--1">
+            <div class="qs-intro__title">
+                <h1>E-Crown<br><strong>sua parceira na transformação digital!</strong></h1>
+            </div>
+        </div>
+        <div class="qs-intro__col flex--1">
+            <div class="qs-intro__text">
+                <p>
+                Fundada em 2011 pelo empreendedor Eduardo Silva após alguns anos no mercado de tecnologia off-line foi 
+                impactado com o grande crescimento do comércio online onde viu a oportunidade do suporte e auxílio da 
+                migração do offline para o online de empresas e marcas, com isso em mente fez a criação da E-Crown com 
+                o objetivo de levar empresas do mundo offline para o mundo online;
+                <br><br>
+                Desenvolvemos projetos de e-commerce de acordo com as necessidades de cada cliente e oferecemos a 
+                infraestrutura necessária para viabilizar a operação para seu e-commerce quer seja através de uma 
+                loja on line própria ou adicionalmente operação em todos dos marketplaces.
+                <br><br>
+                Reunimos todas as especialidades necessárias e integramos as etapas de ponta a ponta: do planejamento
+                 à gestão de canais, da escolha e operação da plataforma à integração do ecossistema digital, incluindo 
+                 cadastro dos produtos, melhores práticas logísticas, marketing digital e SAC 
+                 <br><br>
+                 Defendemos os interesses de nossos clientes levando transparência, respeito e excelência ao consumidor
+                 <br><br>
+                 Trabalhamos comprometidos com a visão de ser uma referência no segmento de full-commerce 
+                 especializado para parceiros e clientes das marcas e o mercado nacional.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="servicos" class="section__2 servicos flex flex--a-center flex--j-center">
+    <div class="servicos__bg"></div>
+    <div class="section__center servicos__center text-center">
+        <div class="section__title servicos__title">
+            <h2>Nossa identidade e propósito</h2>
+            <h1>Como é a E-Crown</h1>
+            <img src="./img/line.svg" alt="" class="line">
+        </div>
+        
+        <div class="servicos__content flex flex--j-start">
+            <div class="servicos__col flex--1">
+                <div class="servicos__box">
+                    <div class="col__center ">
+                        <img class="servicos__img" src="/img/icon__missao.svg" alt="">
+                        <h4>MISSÃO</h4>
+                        <p>Oferecer a nosso cliente a possibilidade de expandir suas vendas através de um canal online oficial o apoiando e simplificando a migração ao mundo digital.
+                            <br><br>
+                            Ao consumidor final oferecer uma experiência de compra incrível com simplicidade e um UX de ponta;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="servicos__col flex--1">
+                <div class="servicos__box">
+                    <div class="col__center ">
+                        <img class="servicos__img" src="/img/icon__visao.svg" alt="">
+                        <h4>VISÃO</h4>
+                        <p>Ser uma referência no segmento de full-commerce especializado para parceiros e clientes das marcas e o mercado nacional.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="servicos__col flex--1">
+                <div class="servicos__box">
+                    <div class="col__center">
+                        <img class="servicos__img" src="/img/icon__valores.svg" alt="">
+                        <h4>VALORES</h4>
+                        <p>Defender os interesses de nossos clientes levando transparência, respeito e excelência ao consumidor </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="gestao" class="section section__1 fullcommerce__1 gestao flex flex--a-center flex--j-center text-center">
+    <div class="fullcommerce__center flex">      
+        <div class="flex--1">
+                <div class="section__title servicos__title text-left">
+                    <h2>FullCommerce - Solução completa</h2>
+                    <h1>Como funciona o FullCommerce?</h1>
+                    <img src="/img/line.svg" alt="" class="line">
+                </div>
+                <p>
+                <strong>FullCommerce</strong> é o serviço de planejamento e terceirização da operação de um e-commerce. Funciona, basicamente, como um representante invisível dos negócios do e-commerce. Esse representante faz todo o serviço de varejo digital, apresentando- se como a própria marca. O dono da marca vende seus produtos para a agência de <strong>FullCommerce</strong> que, por sua vez, gerencia todo o processo de venda online deles. O <strong>FullCommerce</strong> cuida de todo o seu e-commerce de maneira profissional e especializada. Ao contratar o serviço, o foco em resultados está em primeiro plano. Ou seja, toda a parte ligada ao e-commerce fica por conta dos especialistas do full commerce. Esses especialistas estudam o comportamento do consumidor, além de tomar conta do planejamento e da implantação, logística, marketing, financeiro, etc., justamente para você faturar mais.
+                <br><br>
+                Há várias formas de fazer contratos entre a marca e o serviço de <strong>FullCommerce</strong>. A mais comum é estabelecer uma remuneração variante de acordo com os resultados das vendas. Até então, existem várias maneiras de contratação e isso é negociável quanto ao serviço. No geral, o cliente (dono da marca) e a empresa (serviço de <strong>FullCommerce</strong>) fixam um plano de negócios. O objetivo final é aumentar os lucros do cliente, fortalecer a marca e profissionalizar a informação. O que o Full Commerce pode fazer?
+                </p>
+        </div>
+        <div class="flex--1">
+            <div class="fullcommerce__svg">
+                <?php echo file_get_contents('./img/estrutura.svg') ?>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section id="plataformas" class="section__4 plataformas flex flex--a-center flex--j-center">
+    <div class="section__center plataformas__center">
+        <div class="section__title plataformas__title text-center">
+            <h2>Deixamos você integrado</h2>
+            <h1>Conectado com todos </h1>
+            <img src="/img/line.svg" alt="" class="line">
+        </div>
+        <div class="plataformas__content flex--1 flex flex--j-start">
+            <div class="plataformas__row flex">
+                <div class="plataformas__col">
+                    <div class="plataformas__title"><span>Plataformas</span></div>
+                    <div class="plataformas__img flex flex--wrap flex--a-center flex--j-center">
+                        <img data-src="/img/logo-vtex.svg" alt="Vtex" class="plataformas__logo lozad">
+                        <img data-src="/img/logo-magento.svg" alt="Magento" class="plataformas__logo lozad">
+                        <img data-src="/img/logo-shopify.svg" alt="Shopify" class="plataformas__logo lozad">
+                        <img data-src="/img/logo-nopcommerce.svg" alt="NopCommerce" class="plataformas__logo lozad">
+                    </div>  
+                </div>
+                <div class="plataformas__col">
+                    <div class="plataformas__title"><span>Marketing</span></div>
+                    <div class="plataformas__img flex flex--wrap flex--a-center flex--j-center">
+                        <img data-src="/img/logo-premier-google-partner.jpg" alt="Google Premier Partner" class="plataformas__logo lozad">
+                        <img data-src="/img/logo-allin.svg" alt="" class="plataformas__logo lozad">
+                        <img data-src="/img/logo-facebook-marketing-partners.png" alt="Facebook Marketing Partners" class="plataformas__logo lozad">
+                        <img data-src="/img/logo-google_analytics.svg" alt="Google Analytics" class="plataformas__logo lozad">
+                    </div>  
+                </div>
+            </div>
+
+            <div class="plataformas__row flex">
+                <div class="plataformas__col">
+                    <div class="plataformas__title"><span>Marketplace</span></div>
+                    <div class="plataformas__img flex flex--wrap flex--a-center flex--j-center">
+                        <img data-src="/img/logo-b2w.png" alt="B2W" class="plataformas__logo lozad">
+                        <img data-src="/img/logo-viavarejo.png" alt="ViaVarejo" class="plataformas__logo lozad">
+                        <img data-src="/img/logo-mercado-livre.png" alt="Mercado Livre" class="plataformas__logo lozad">
+                        <img data-src="/img/logo-amazon.png" alt="Amazon" class="plataformas__logo lozad">
+                        
+                    </div>
+                </div>
+                <div class="plataformas__col">
+                    <div class="plataformas__title"><span>Meios de pagamento</span></div>
+                    <div class="plataformas__img flex flex--wrap flex--a-center flex--j-center">
+                        <img data-src="/img/logo-mercado-pago.svg" alt="Mercado Pago" class="plataformas__logo lozad">
+                        <img data-src="/img/logo-yapay.svg" alt="Yapay" class="plataformas__logo lozad">
+                    </div>
+                </div>
+                <div class="plataformas__col">
+                    <div class="plataformas__title"><span>Logística</span></div>
+                    <div class="plataformas__img flex flex--wrap flex--a-center flex--j-center">
+                        <img data-src="/img/logo-correios.svg" alt="Correios" class="plataformas__logo lozad">
+                        <img data-src="/img/logo-frenet.svg" alt="Frenet" class="plataformas__logo lozad">
+                    </div>
+                </div>
+            </div>
+            <div class="plataformas__row flex">
+                <div class="plataformas__col">
+                    <div class="plataformas__title"><span>Sistemas de segurança</span></div>
+                    <div class="plataformas__img flex flex--wrap flex--a-center flex--j-center">
+                        <img data-src="/img/logo-site-blindado.svg" alt="Site blindado" class="plataformas__logo lozad">
+                    </div>
+                </div>
+                <div class="plataformas__col">
+                    <div class="plataformas__title"><span>Data Center</span></div>
+                    <div class="plataformas__img flex flex--wrap flex--a-center flex--j-center">
+                        <img data-src="/img/logo-amazon-web-services.svg" alt="Amazon Web Services" class="plataformas__logo lozad">
+                        <img data-src="/img/logo-google-cloud.svg" alt="Google Cloud" class="plataformas__logo lozad">
+                    </div>
+                </div>
+                <div class="plataformas__col">
+                    <div class="plataformas__title"><span>Associações</span></div>
+                    <div class="plataformas__img flex flex--wrap flex--a-center flex--j-center">
+                        <img data-src="/img/logo-abcomm.svg" alt="Abcomm" class="plataformas__logo lozad">
+                        <img data-src="/img/logo-abrinq.svg" alt="Abrinq" class="plataformas__logo lozad">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="blog" class="section__2 blog flex flex--a-center flex--j-center">
+    <div class="section__center blog__center">
+        <div class="section__title blog__title text-center">
+            <h2>Atualizações do Blog</h2>
+            <h1>Mantenha-se atualizado com <br> nossas últimas notícias e artigos</h1>
+            <img src="/img/line.svg" alt="" class="line">
+        </div>
+        <div class="blog__content flex flex--j-start">
+            <div class="card">
+                <a href="/blog/ux-e-ui-para-ecommerce">
+                    <div class="card__img">
+                        <img data-src="/img/blog/card_ux-e-ui-para-ecommerce.jpg" alt="" class="lozad">
+                    </div>
+                    <div class="card__date">Dezembro 29, 2020</div>
+                    <div class="card__header">UX e UI para E-Commerce</div>
+                    <div class="card__content">Tudo o que você precisa saber sobre UX e UI para alavancar seu ecommerce</div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="/blog/quer-ser-um-especialista-de-verdade-segue-algumas-dicas">
+                    <div class="card__img">
+                        <img data-src="/img/blog/card_quer-ser-um-especialista-de-verdade-segue-algumas-dicas.jpg" alt="" class="lozad">
+                    </div>
+                    <div class="card__date">Dezembro 29, 2020</div>
+                    <div class="card__header">Quer ser um especialista de verdade? Segue algumas dicas...</div>
+                    <div class="card__content">Atualmente é muito comum ouvirmos os termos SEO, CRO, teste A/B, Mobile first, CSS responsivo, PWA entre outras siglas.</div>
+                </a>
+            </div>
+        </div>
+        <div class="blog__footer">
+            <a href="#" class="blank">Ver todas as postagens</a>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<!--desk depoimentos -->
+<div class="deskdepo">
+    <section id="depoimentos" class="section__2 depoimentos flex flex--a-center flex--j-center">
+        <div class="section__center depoimentos__center">
+    
+    
+         
+    
+            <div class="section__title depoimentos__title">
+                <h2>Depoimentos</h2>
+                <h3>O que nossos clientes falam sobre nós</h3>
+                <img src="/img/line.svg" alt="" class="line">
+            </div>
+    
+            <div class="depoimentos__content">
+                <div id="depo" class="depoimentos__slider">
+    
+                    <div class="depoimentos__itens item">
+                        <div class="depoimentos__box item">
+                            <div class="item__container">
+                            "A Logitech confiou na E-CrownGroup toda a sua operação de e-commerce no Brasil!".<br><br><br><br><br>
+                            </div>
+                            <div class="item__footer">
+                                <div class="footer-img"><img src="/img/depoimentos-ricardo-filo.jpg" alt="Logitech" class="lozad"></div>
+                                <div class="footer-name">Ricardo Filó</div>
+                                <div class="footer-area">Head de Marketing da Logitech no Brasil</div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+    
+            <div class="depoimentos__content">
+                <div id="depo" class="depoimentos__slider">
+    
+                    <div class="depoimentos__itens item">
+                        <div class="depoimentos__box item">
+                            <div class="item__container">
+                                "A Nvidia Store é uma ótima oportunidade de encurtar
+                                o caminho dos clientes em busca das nossas
+                                soluções profissionais".<br><br><br><br>
+                            </div>
+                            <div class="item__footer">
+                                <div class="footer-img"><img src="/img/Nvidia_Richard_Cameron.jpg" alt="Nvidia" class="lozad"></div>
+                                <div class="footer-name">Richard Cameron</div>
+                                <div class="footer-area">Country Manager da Nvidia Brasil.</div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+    
+            <div class="depoimentos__content">
+                <div id="depo" class="depoimentos__slider">
+    
+                    <div class="depoimentos__itens item">
+                        <div class="depoimentos__box item">
+                            <div class="item__container">
+                                "A sinergia que temos com a E-crown tem nos ajudado a entender melhor o complicado
+                                mercado brasileiro e ter uma melhor penetração e estratégia neste mercado".<br><br>
+                            </div>
+                            <div class="item__footer">
+                                <div class="footer-img"><img src="/img/Makerbot_Felipe_Rosales.jpg" alt="Makerbot" class="lozad"></div>
+                                <div class="footer-name">Felipe Rosales</div>
+                                <div class="footer-area">Country Manager da Makerbot</div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="depoimentos__content">
+                <div id="depo" class="depoimentos__slider">
+    
+                    <div class="depoimentos__itens item">
+                        <div class="depoimentos__box item">
+                            <div class="item__container">
+                                "A BRSports fortalece suas marcas Topper e Rainha
+                                através do serviço completo de e-commerce fornecido
+                                pela E-crown Group".!<br><br><br>
+                            </div>
+                            <div class="item__footer">
+                                <div class="footer-img"><img src="/img/brsports_Andre_Castro.jpg" alt="BRSports" class="lozad"></div>
+                                <div class="footer-name">Andre Castro</div>
+                                <div class="footer-area">Head de Operações da BR Sports</div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>  
+    
+        </div>
+        <br><br>
+    </section></div>
+    
+    
+    <!--mobile depoimentos -->
+    <div class="mobidepo">
+    <section id="depoimentos" class="section__2 depoimentos flex flex--a-center flex--j-center ">
+        <div class="section__center depoimentos__center">
+
+            <div class="section__title depoimentos__title">
+                <h2>Depoimentos</h2>
+                <h3>O que nossos clientes falam sobre nós</h3>
+                <img src="/img/line.svg" alt="" class="line">
+            </div>
+    
+       
+    <div class="container d-block d-md-none">
+        <div class="row ">
+    
+            <div class="col-12 owl-carousel owl-theme">
+    
+    
+                <div class="col-md-4 mx-auto item">
+    
+                     <div class="depoimentos__content">
+                <div id="depo" class="depoimentos__slider">
+    
+                    <div class="depoimentos__itens item">
+                        <div class="depoimentos__box item">
+                            <div class="item__container">
+                            "A Logitech confiou na E-CrownGroup toda a sua operação de e-commerce no Brasil!".<br><br><br><br>
+                            </div>
+                            <div class="item__footer">
+                                <div class="footer-img"><img src="/img/depoimentos-ricardo-filo.jpg" alt="Logitech" class="lozad"></div>
+                                <div class="footer-name">Ricardo Filó</div>
+                                <div class="footer-area">Head de Marketing da Logitech no Brasil</div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+           
+                </div>    
+    
+                <div class="col-md-4 mx-auto item">
+                 
+                    <div class="depoimentos__content">
+                        <div id="depo" class="depoimentos__slider">
+            
+                            <div class="depoimentos__itens item">
+                                <div class="depoimentos__box item">
+                                    <div class="item__container">
+                                        "A Nvidia Store é uma ótima oportunidade de encurtar
+                                        o caminho dos clientes em busca das nossas
+                                        soluções profissionais".<br><br><br>
+                                    </div>
+                                    <div class="item__footer">
+                                        <div class="footer-img"><img src="/img/Nvidia_Richard_Cameron.jpg" alt="Nvidia" class="lozad"></div>
+                                        <div class="footer-name">Richard Cameron</div>
+                                        <div class="footer-area">Country Manager da Nvidia Brasil.</div>
+                                    </div>
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+    
+                </div>
+    
+    
+                <div class="col-md-4 mx-auto item">
+                 
+                    <div class="depoimentos__content">
+                        <div id="depo" class="depoimentos__slider">
+            
+                            <div class="depoimentos__itens item">
+                                <div class="depoimentos__box item">
+                                    <div class="item__container">
+                                        "A sinergia que temos com a E-crown tem nos ajudado a entender melhor o complicado mercado
+                                        brasileiro e ter uma melhor penetração e estratégia neste mercado".<br><br>
+                                    </div>
+                                    <div class="item__footer">
+                                        <div class="footer-img"><img src="/img/Makerbot_Felipe_Rosales.jpg" alt="Makerbot" class="lozad"></div>
+                                        <div class="footer-name">Felipe Rosales</div>
+                                        <div class="footer-area">Country Manager da Makerbot</div>
+                                    </div>
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="col-md-4 mx-auto item">
+                   
+                    <div class="depoimentos__content">
+                        <div id="depo" class="depoimentos__slider">
+            
+                            <div class="depoimentos__itens item">
+                                <div class="depoimentos__box item">
+                                    <div class="item__container">
+                                        "A BRSports fortalece suas marcas Topper e Rainha
+                                        através do serviço completo de e-commerce fornecido
+                                        pela E-crown Group".!<br><br><br>
+                                    </div>
+                                    <div class="item__footer">
+                                        <div class="footer-img"><img src="/img/brsports_Andre_Castro.jpg" alt="BRSports" class="lozad"></div>
+                                        <div class="footer-name">Andre Castro</div>
+                                        <div class="footer-area">Head de Operações da BR Sports</div>
+                                    </div>
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+    
+                </div>
+              
+            </div>
+
+        
+    
+        </div>
+    
+    </div></section></div>
+
+    
+
+
+
+
+<div class="container-logos">
+    <br><br>
+  <h2>Clientes</h2>
+   <section class="customer-logos slider">     
+       <div class="slide"><img src="/img/Prancheta11.png"></div>
+      <div class="slide"><img src="/img/Prancheta1.png"></div>
+      <div class="slide"><img src="/img/Prancheta3.png"></div>
+      <div class="slide"><img src="/img/Prancheta4.png"></div>
+ 
+      <div class="slide"><img src="/img/Prancheta7.png"></div>
+      <div class="slide"><img src="/img/Prancheta8.png"></div>
+  
+      <div class="slide"><img src="/img/Prancheta10.png"></div>
+ 
+      <div class="slide"><img src="/img/Prancheta12.png"></div>
+      <div class="slide"><img src="/img/Prancheta13.png"></div>
+      <div class="slide"><img src="/img/Prancheta14.png"></div>
+      <div class="slide"><img src="/img/Prancheta15.png"></div>
+      <div class="slide"><img src="/img/Prancheta16.png"></div>
+   </section>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script>
+    $('.owl-carousel').owlCarousel({
+        autoplay: true,
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
+            }
+        }
+    });
+</script>
+
+
+
+
+<script type="text/javascript" >
+
+    var $jq = jQuery.noConflict();
+    $jq(document).ready(function(){
+        $jq('.customer-logos').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            arrows: false,
+            dots:false,
+            pauseOnHover: false,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 4
+                }
+            }, {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 3
+                }
+            }]
+        });
+    });
+    
+    </script>
+    
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+<section id="contato" class="section__2 contato flex flex--a-center flex--j-center">
+    <div class="section__center contato__center">
+    <div class="contato__col">
+    <div class="contato__form">
+    <div class="form__h2 text-center">
+    <h2>Mantenha contato</h2>
+    </div>
+    <div class="form__content">
+    <form method="post" action="mensagem" id="formContact">
+    <input type="text" id="nome" name="nome" placeholder="Informe seu nome" class="form__input" required="" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+    <input type="email" id="email" name="email" placeholder="Informe seu email" class="form__input" required="">
+    <input type="phone" name="telefone" id="telefone" placeholder="Digite seu telefone" class="form__input" required="">
+    <input type="text" name="empresa" id="empresa" placeholder="Sua empresa" class="form__input">
+    <textarea type="text" name="mensagem" id="mensagem" placeholder="Digite sua mensagem" class="form__input"></textarea>
+    <p><small>* Seu email não será publicado. Nós prometemos</small></p>
+    <br>
+    <br>
+    <div class="g-recaptcha" data-sitekey="6LfjN6gZAAAAAAT1yjAP39jS_I2HPozIX_2AMrM9"></div>
+    <input class="form__button" type="submit" value="Enviar">
+    </form>
+    </div>
+    </div>
+    </div>
+    <div class="contato__col">
+    <div class="dados">
+    <div class="section__title blog__title">
+    <h2>Dados de contato</h2>
+    <h1>Vamos nos unir para tornar seu produto melhor</h1>
+    <img data-src="./img/line.svg" alt="" class="line lozad" src="./img/line.svg" data-loaded="true">
+    </div>
+    <div class="dados__endereco">
+    Escritório Administrativo<br>
+    Rua do Rocio, 291 <br>
+    8º Andar<br>
+    Vila Olímpia, São Paulo, 04552-000<br>
+    </div>
+    <div class="dados__tel">
+    <a href="tel:+551133758998">+55 11 3375.8998</a><br>
+    <a href="tel:+5511995851507">+55 11 99585.1507</a><br>
+    <a href="mailto:eduardo.silva@e-crowngroup.com">eduardo.silva@e-crowngroup.com</a>
+    </div>
+    <div class="dados__social">
+    <a href="https://web.facebook.com/ecrowngroup"><img data-src="./img/logo__facebook.svg" alt="Facebook" class="icon__social lozad" src="./img/logo__facebook.svg" data-loaded="true"></a>
+    <a href="https://www.instagram.com/ecrown.group/"> <img data-src="./img/logo__instagram.svg" alt="Instagram" class="icon__social lozad" src="./img/logo__instagram.svg" data-loaded="true"></a>
+    <a href="https://www.youtube.com/channel/UCq_pQV06ChQDJU10_ERzcfA"> <img data-src="./img/ico__youtube.png" alt="Youtube" class="icon__social lozad" src="./img/ico__youtube.png" data-loaded="true"></a>
+    <a href="https://www.linkedin.com/company/e-crowngroup"> <img data-src="./img/ico-1_linkedin.png" alt="Linkedin" class="icon__social lozad" src="./img/ico-1_linkedin.png" data-loaded="true"></a>
+    </div>
+    <div style="text-align:center;font-size:.8em;padding-top:25px;">
+    <a href="/etica.php">Política de Integridade e Ética</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+
+
+<footer>
+    <div id="whatsapp">
+        <a class="whatsapp" href="//api.whatsapp.com/send?phone=5511995851507&amp;text=Ol%C3%A1%2C%20venho%20do%20site%20e-crowngroup.com%3B%20"> <svg viewBox="0 0 800 800"><path d="M519 454c4 2 7 10-1 31-6 16-33 29-49 29-96 0-189-113-189-167 0-26 9-39 18-48 8-9 14-10 18-10h12c4 0 9 0 13 10l19 44c5 11-9 25-15 31-3 3-6 7-2 13 25 39 41 51 81 71 6 3 10 1 13-2l19-24c5-6 9-4 13-2zM401 200c-110 0-199 90-199 199 0 68 35 113 35 113l-20 74 76-20s42 32 108 32c110 0 199-89 199-199 0-111-89-199-199-199zm0-40c133 0 239 108 239 239 0 132-108 239-239 239-67 0-114-29-114-29l-127 33 34-124s-32-49-32-119c0-131 108-239 239-239z"></path></svg> <span> WhatsApp</span> </a>
+    </div>
+</footer>
+
+<style>.grecaptcha-badge { visibility: hidden; }</style>
+
+<!-- Recaptch -->
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" ></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/88/three.min.js" integrity="sha512-O/Ngu/up/cPGCosSOUihbvvEyO7Ngiyin9GkQ6JIAA4Eb7XxhZDccp4xE6conGtCu45YmjCA0ibRnXmCBHXn2Q==" crossorigin="anonymous"  defer></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"  defer></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@10.12.6/dist/sweetalert2.all.min.js" defer></script>
+
+
+
+<!-- GoAdopt -->
+<script src="//tag.goadopt.io/injector.js?website_code=2ff74d53-59e1-4ea1-b3a6-9c5f7aeafbe9" class="adopt-injector" async></script>
+<script>window.adoptHideAfterConsent = true;</script>
+
+<script src="/js/script.min.js?v=2.3" defer></script>
+<script src="/js/wave.js" defer></script>
+</html>
+
+
+
